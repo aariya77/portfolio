@@ -1,0 +1,87 @@
+body {
+  font-family: 'Georgia', serif;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  background-color: #fff;
+  color: #000;
+  padding-top: 140px;
+}
+header {
+  background-color: #f2f2f2;
+  padding: 20px 0;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  position: fixed;         
+  top: 0;
+  left: 0;
+  width: 100%;            
+  z-index: 1000;           
+}
+.nav {
+  background-color: #e0f0ff; 
+  padding: 10px 0;
+  margin-top: 15px;
+  box-shadow: inset 0 -1px 0 #ccc;
+}
+.nav a {
+  margin: 0 15px;
+  text-decoration: none;
+  color: #333;
+  font-size: 14px;
+  transition: color 0.3s ease;
+}
+.nav a:hover {
+  color: #007BFF;
+}
+h1 {
+  margin: 0;
+  letter-spacing: 2px;
+  font-size: 28px;
+}
+.main {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+.qualification-page h2 {
+  font-size: 28px;
+  margin-bottom: 30px;
+  text-transform: uppercase;
+  color: #007BFF;
+}
+.qualification-entry {
+  background-color: #f9f9f9;
+  border-left: 5px solid #007BFF;
+  padding: 20px;
+  margin: 30px auto;
+  max-width: 850px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+  border-radius: 6px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap; 
+  gap: 20px;
+}
+.qualification-details {
+  flex: 1 1 60%;
+  text-align: left;
+}
+.qualification-photo {
+  flex: 1 1 35%;
+  text-align: right;
+}
+.qualification-photo img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.qualification-entry h3 {
+  margin-top: 0;
+  color: #333;
+}
+.qualification-entry p {
+  margin: 5px 0;
+  color: #555;
+}

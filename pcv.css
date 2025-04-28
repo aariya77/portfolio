@@ -1,0 +1,46 @@
+body {
+  font-family: 'Georgia', serif;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  background-color: #fff;
+  color: #000;
+  padding-top: 140px; 
+}
+
+header {
+  background-color: #f2f2f2;
+  padding: 20px 0;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  position: fixed;         
+  top: 0;
+  left: 0;
+  width: 100%;             
+  z-index: 1000;           
+}
+
+.nav {
+  background-color: #e0f0ff; 
+  padding: 10px 0;
+  margin-top: 15px;
+  box-shadow: inset 0 -1px 0 #ccc;
+}
+
+.nav a {
+  margin: 0 15px;
+  text-decoration: none;
+  color: #333;
+  font-size: 14px;
+  transition: color 0.3s ease;
+}
+
+.nav a:hover {
+  color: #007BFF;
+}
+
+/* Header Title */
+h1 {
+  margin: 0;
+  letter-spacing: 2px;
+  font-size: 28px;
+}
